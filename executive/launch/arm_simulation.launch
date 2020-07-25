@@ -1,0 +1,7 @@
+<launch>
+	<node name="js_to_goal_node" pkg="js_to_goal_point" type="js_to_goal_point_node.py"/>
+	<node name="joy_node" pkg="joy" type="joy_node"/>
+	<node name="simulator_node" pkg="simulator" type="simulator_node.py"/>
+	<node name="gui_node" pkg="gui" type="gui_node.py"/>
+	<node name="arm_spec_node" pkg="simulator" type="arm_init_test.py"/>
+</launch>
