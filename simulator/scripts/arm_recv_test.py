@@ -1,3 +1,4 @@
+#! /usr/bin/env/ python
 import rospy
 
 from simulator.arm import Arm

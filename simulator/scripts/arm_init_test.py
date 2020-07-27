@@ -1,3 +1,4 @@
+#! /usr/bin/env/ python
 import rospy
 from numpy import pi
 from simulator.msg import Link_msg, Arm_msg
